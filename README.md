@@ -12,7 +12,7 @@ MyCheckers是基于Qt开发的网络对战跳棋游戏，主要分为**客户端
 
 ##### 游戏玩法
 
-+ 本游戏为双人联网跳棋游戏，进行游戏时需开启且仅开启两个`client`端可执行文件（`MyCheckers_v2.exe`）和一个`server`端可执行文件（`My_Checkers_Server.exe`）。注意，进行游戏时不能破坏`MyCheckers_release+final_version`的层级结构
++ 本游戏为双人联网跳棋游戏，进行游戏时需开启且仅开启两个`client`端可执行文件（`MyCheckers_v2.exe`）和一个`server`端可执行文件（`My_Checkers_Server.exe`）。注意，进行游戏时不能破坏`MyCheckers_release_final_version`的层级结构
 + 进入游戏界面后`client`端需要接入服务器。点击菜单栏页面`Connect->Connect to Server`，根据提示输入IP（在同一电脑下使用默认的`IP=127.0.0.1`）和端口（端口由服务器设置），即可完成连接
 + 选择棋子游戏后可以点击`Now start your Game`，两位玩家都点击开始（且选择棋子颜色不同）后开始游戏
 + 游戏期间双方交替走子，有如下玩法细节：
